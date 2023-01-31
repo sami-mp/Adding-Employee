@@ -1,0 +1,37 @@
+@media screen and (max-width: 479px) {
+  body {
+    font-family: "Roboto";
+    font-size: small;
+  }
+  textarea {
+    width: 50%;
+  }
+}
+
+legend {
+  color: red;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    font-family: "Open Sans";
+    font-size: large;
+  }
+  textarea {
+    width: 80%;
+    height: 2cm;
+  }
+}
+
+label > p {
+  margin-bottom: 0.4em;
+}
+
+fieldset {
+  width: auto;
+}
+#department {
+  width: 165px;
+  height: 25px;
+  border-radius: 3px;
+}
